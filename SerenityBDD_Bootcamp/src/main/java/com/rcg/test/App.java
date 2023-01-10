@@ -1,4 +1,4 @@
-package com.rgc.test;
+package com.rcg.test;
 
 /**
  * Hello world!

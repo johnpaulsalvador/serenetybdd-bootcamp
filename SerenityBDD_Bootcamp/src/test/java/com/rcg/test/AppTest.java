@@ -1,4 +1,4 @@
-package com.rgc.test;
+package com.rcg.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
