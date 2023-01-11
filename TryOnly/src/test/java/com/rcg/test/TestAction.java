@@ -10,6 +10,6 @@ public class TestAction extends UIInteractions{
 	
 	@Step("Search by Keyword")
 	public void searchBy(String keyword) {
-		$("//div[@class='RNNXgb']//div//input").sendKeys(keyword,Keys.ENTER);
+		find("//div[@class='RNNXgb']//div//input").sendKeys(keyword,Keys.ENTER);
 	}
 }
