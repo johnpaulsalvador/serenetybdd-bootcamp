@@ -1,7 +1,6 @@
 package com.rcg.jpsalvador;
 
 import org.openqa.selenium.WebElement;
-
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageComponent;
 
