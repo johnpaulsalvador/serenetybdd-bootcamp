@@ -6,8 +6,8 @@ import net.thucydides.core.annotations.Step;
 public class NavigateToYahooSearch extends UIInteractions {
 
 	@Step("Navigate to Yahoo")
-	public void openURL() {
-		openUrl("https://sg.yahoo.com/");
+	public void openURL(String sUrl) {
+		openUrl(sUrl);
 	}
 	
 }

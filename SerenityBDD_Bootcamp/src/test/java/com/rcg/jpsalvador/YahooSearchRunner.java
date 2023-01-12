@@ -19,7 +19,7 @@ public class YahooSearchRunner {
 	
 	@Test
 	public void goToYahooPage() {
-		navigate.openURL();
+		navigate.openURL("https://sg.yahoo.com/");
 		action.clickSignInButton();
 		Assert.assertTrue(testComponent.searchTitle().equalsIgnoreCase("Sign in using your Yahoo account"));
 	}
