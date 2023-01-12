@@ -19,7 +19,7 @@ public class Mainrunner {
 	TestCom com;
 	@Test
 	public void navigateYahoo() {
-		nav.openURL();
+		nav.openURL("https://sg.yahoo.com/");
 		act.clickSignInButton();
 		Assert.assertTrue(com.searchTitle().equalsIgnoreCase("Shopping"));
 	}
