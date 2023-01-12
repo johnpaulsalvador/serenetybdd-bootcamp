@@ -8,7 +8,7 @@ public class TestActions extends UIInteractions {
 	
 	@Step("Click on Sign In")
 	public void clickSignInButton() {
-		find("//div//a[@class='_yb_16vny']").click();
+		find("//div//a[@data-redirect-params='pspid=[[pspid]]&activity=ybar-signin']").click();
 	}
 	
 }
